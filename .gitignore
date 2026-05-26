@@ -32,3 +32,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# credentials / secrets
+gcp-oauth.keys.json
+*.keys.json
+
+# claude local files
+.claude/settings.local.json
+.claude/worktrees/
+.claude/launch.json
