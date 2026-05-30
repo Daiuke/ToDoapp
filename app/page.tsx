@@ -597,7 +597,7 @@ export default function VPDApp() {
       )}
 
       {/* 非表示のファイル入力 */}
-      <input ref={photoInputRef} type="file" accept="image/*" capture="environment"
+      <input ref={photoInputRef} type="file" accept="image/*"
         className="hidden" onChange={handlePhotoCapture} />
 
       {/* ヘッダー */}
